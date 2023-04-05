@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """
     Name: kube_get_logs.py - Scans for logs of running Kubernetes pods; filter out Kubernetes-specific pods (e.g. 'kube-system' namespace)
-    Author: John L. Bernstein IV (jbernsteiniv@gmail.com)
-    Date: April 02 2023
 """
 import json
 import subprocess
